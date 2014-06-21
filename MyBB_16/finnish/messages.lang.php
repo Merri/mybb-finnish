@@ -47,7 +47,7 @@ $l['error_invalidusername'] = "Syötetty tunnus ei kelpaa.";
 $l['error_invalidpassword'] = "Salasana ei kelpaa. Mikäli et muista salasanaasi, voit <a href=\"member.php?action=lostpw\">hankkia uuden salasanan</a>. Muussa tapauksessa palaa takaisin ja yritä uudelleen.";
 $l['error_postflooding'] = "Voit lähettää viestin {1} sekunnin välein.";
 $l['error_nopermission_guest_1'] = "Et ole kirjautunut sisään tai oikeutesi eivät ole riittävät. Syitä tähän voivat olla mm.:";
-$l['error_nopermission_guest_2'] = "Et ole rekisteröinyt tunnusta tai kirjautunut sisään.";
+$l['error_nopermission_guest_2'] = "Et ole luonut tunnusta tai kirjautunut sisään.";
 $l['error_nopermission_guest_3'] = "Ylläpito on estänyt pääsyn.";
 $l['error_nopermission_guest_4'] = "Tunnuksesi on poistettu käytöstä tai se odottaa aktivointia.";
 $l['error_nopermission_guest_5'] = "Tulet tälle sivulle suoralla osoitteella, etkä linkin tai lomakkeen kautta.";
@@ -163,7 +163,7 @@ Keskustelualueen {2} ylläpito";
 
 $l['email_randompassword'] = "{1},
 
-Kiitos että rekisteröidyit keskustelualueellemme! Alta löydät tunnuksesi ja satunnaisesti luodun salasanan. Tarvitset nämä tiedot kirjautuaksesi sisään keskustelualueelle.
+Kiitos että liityit keskustelualueellemme! Alta löydät tunnuksesi ja satunnaisesti luodun salasanan. Tarvitset nämä tiedot kirjautuaksesi sisään keskustelualueelle.
 
 Tunnus: {3}
 Salasana: {4}
@@ -175,7 +175,7 @@ Keskustelualueen {2} ylläpito";
 
 $l['email_randompassword1'] = "{1},
 
-Kiitos että rekisteröidyit keskustelualueellemme! Alta löydät tunnuksesi ja satunnaisesti luodun salasanan. Tarvitset nämä tiedot kirjautuaksesi sisään keskustelualueelle.
+Kiitos että liityit keskustelualueellemme! Alta löydät tunnuksesi ja satunnaisesti luodun salasanan. Tarvitset nämä tiedot kirjautuaksesi sisään keskustelualueelle.
 
 Sähköpostiosoite
 Salasana: {4}
@@ -187,7 +187,7 @@ Keskustelualueen {2} ylläpito";
 
 $l['email_randompassword2'] = "{1},
 
-Kiitos että rekisteröidyit keskustelualueellemme! Alta löydät tunnuksesi ja satunnaisesti luodun salasanan. Tarvitset nämä tiedot kirjautuaksesi sisään keskustelualueelle.
+Kiitos että liityit keskustelualueellemme! Alta löydät tunnuksesi ja satunnaisesti luodun salasanan. Tarvitset nämä tiedot kirjautuaksesi sisään keskustelualueelle.
 
 Tunnus: {3} (tai sähköpostiosoite)
 Salasana: {4}
@@ -240,7 +240,7 @@ Jos haluat lakkauttaa tämän huoneen näiden huomautusten saamisen, vieraile se
 
 $l['email_activateaccount'] = "{1},
 
-Viimeistelläksesi rekisteröitymisen keskustelualueelle {2}, sinun tarvitsee vierailla seuraavassa osoitteessa selaimellasi.
+Viimeistelläksesi tunnuksen luonnin keskustelualueelle {2}, sinun tarvitsee vierailla seuraavassa osoitteessa selaimellasi.
 
 {3}/member.php?action=activate&uid={4}&code={5}
 
@@ -257,7 +257,7 @@ Keskustelualueen {2} ylläpito";
 
 $l['email_activateaccount1'] = "{1},
 
-Viimeistelläksesi rekisteröitymisen keskustelualueelle {2}, sinun tarvitsee vierailla seuraavassa osoitteessa selaimellasi.
+Viimeistelläksesi tunnuksen luonnin keskustelualueelle {2}, sinun tarvitsee vierailla seuraavassa osoitteessa selaimellasi.
 
 {3}/member.php?action=activate&uid={4}&code={5}
 
@@ -274,7 +274,7 @@ Keskustelualueen {2} ylläpito";
 
 $l['email_activateaccount2'] = "{1},
 
-Viimeistelläksesi rekisteröitymisen keskustelualueelle {2}, sinun tarvitsee vierailla seuraavassa osoitteessa selaimellasi.
+Viimeistelläksesi tunnuksen luonnin keskustelualueelle {2}, sinun tarvitsee vierailla seuraavassa osoitteessa selaimellasi.
 
 {3}/member.php?action=activate&uid={4}&code={5}
 

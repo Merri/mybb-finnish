@@ -5,7 +5,7 @@
  */
 
 $l['userdata_missing_username'] = "Tunnus puuttuu.";
-$l['userdata_banned_username'] = "Tunnusta ei voi rekisteröidä.";
+$l['userdata_banned_username'] = "Tunnusta ei voi luoda.";
 $l['userdata_bad_characters_username'] = "Tunnus sisältää kiellettyjä merkkejä.";
 $l['userdata_invalid_username_length'] = "Tunnuksessa tulee olla {1} – {2} merkkiä.";
 $l['userdata_invalid_usertitle_length'] = "Määrittelemäsi titteli on liian pitkä, se saa olla korkeintaan {1} merkkiä pitkä.";

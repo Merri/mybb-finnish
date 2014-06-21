@@ -7,11 +7,11 @@
 /* Siirrä tämän tekstin lopussa olevat kaksi merkkiä sijaitsemaan tiedoston loppuun käyttääksesi tietokantaan tallennettua ohjeistusta näiden lokalisoitujen rivien sijasta */
  
 // Help Document 1
-$l['d1_name'] = "Tunnuksen rekisteröinti";
-$l['d1_desc'] = "Edut käyttäjätunnuksen rekisteröinnistä.";
-$l['d1_document'] = "Jotkin tämän keskustelualueen toiminnot vaativat sisäänkirjautumisen. Rekisteröityminen on ilmainen ja vaatii vain pari minuuttia.
-<br /><br />On suositeltavaa rekisteröityä, sillä se mahdollistaa viestien kirjoittamisen, omien asetuksien määrittämisen ja tunnuksen hallinnan.
-<br /><br />Ominaisuudet jotka yleisesti vaativat rekisteröitymisen ovat keskustelujen tilaaminen, ulkoasun vaihtaminen, oman henkilökohtaisen muistion käyttö ja sähköpostin lähettäminen keskustelualueen käyttäjille.";
+$l['d1_name'] = "Tunnuksen luonti";
+$l['d1_desc'] = "Edut käyttäjätunnuksen luonnista.";
+$l['d1_document'] = "Jotkin tämän keskustelualueen toiminnot vaativat sisäänkirjautumisen. Tunnuksen luonti on ilmaista ja vaatii vain pari minuuttia.
+<br /><br />On suositeltavaa luoda tunnus, sillä se mahdollistaa viestien kirjoittamisen, omien asetuksien määrittämisen ja tunnuksen hallinnan.
+<br /><br />Ominaisuudet jotka yleisesti vaativat tunnuksen luonnin ovat keskustelujen tilaaminen, ulkoasun vaihtaminen, oman henkilökohtaisen muistion käyttö ja sähköpostin lähettäminen keskustelualueen käyttäjille.";
 
 // Help Document 2
 $l['d2_name'] = "Tunnuksen päivittäminen";
@@ -21,7 +21,7 @@ $l['d2_document'] = "Jossakin vaiheessa sinulle voi tulla tarve päivittää joi
 // Help Document 3
 $l['d3_name'] = "Evästeiden käyttö MyBB:ssä";
 $l['d3_desc'] = "MyBB käyttää evästeitä tallentaakseen tietoja tunnuksestasi.";
-$l['d3_document'] = "MyBB käyttää evästeitä tallentaakseen kirjautumistietosi ollessasi rekisteröinyt, tai edellisen vierailusi ajankohdan mikäli et ole.
+$l['d3_document'] = "MyBB käyttää evästeitä tallentaakseen kirjautumistietosi ollessasi tunnistautuneena sisällä, tai edellisen vierailusi ajankohdan mikäli et ole.
 <br /><br />Evästeet ovat pieniä tietokoneellasi säilöttyjä tekstitiedostoja. Nämä evästeet ovat vain tämän keskustelualueen sivuston käytettävissä eivätkä ne ole turvallisuusriski.
 <br /><br />Evästeet auttavat myös pitämään kirjaa lukemistasi keskusteluista.
 <br /><br />Jos haluat tuhota kaikki keskustelualueen asettamat evästeet, <a href=\"misc.php?action=clearcookies&amp;key={1}\">paina tästä</a>.";

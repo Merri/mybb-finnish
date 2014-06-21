@@ -26,7 +26,7 @@ $l['num_posts'] = "Viestit:";
 $l['full_stats'] = "Tilastot";
 $l['welcome'] = "Tervetuloa, {1}";
 $l['guest'] = "Vieras";
-$l['guest_welcome_registration'] = "Sinun täytyy <a href=\"{1}\">rekisteröityä</a> ennen kuin voit kirjoittaa.";
+$l['guest_welcome_registration'] = "Sinun täytyy <a href=\"{1}\">luoda tunnus</a> ennen kuin voit kirjoittaa.";
 $l['username'] = "Tunnus";
 $l['password'] = "Salasana";
 $l['login'] = "Kirjaudu";
