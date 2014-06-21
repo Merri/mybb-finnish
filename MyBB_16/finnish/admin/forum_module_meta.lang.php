@@ -1,21 +1,19 @@
 <?php
 /**
- * MyBB 1.6 English Language Pack
- * Copyright 2010 MyBB Group, All Rights Reserved
- * 
- * $Id: forum_module_meta.lang.php 5297 2010-12-28 22:01:14Z Tomm $
+ * MyBB 1.6 Finnish Language Pack
+ * Suomentanut Vesa Piittinen, katso http://community.mybb.com/thread-89482.html
  */
  
-$l['forums_and_posts'] = "Forums &amp; Posts";
+$l['forums_and_posts'] = "Alueet &amp; viestit";
 
-$l['forum_management'] = "Forum Management";
-$l['forum_announcements'] = "Forum Announcements";
-$l['moderation_queue'] = "Moderation Queue";
-$l['attachments'] = "Attachments";
+$l['forum_management'] = "Alueiden hallinta";
+$l['forum_announcements'] = "Huoneilmoitukset";
+$l['moderation_queue'] = "Valvontajono";
+$l['attachments'] = "Liitetiedostot";
 
-$l['can_manage_forums'] = "Can manage forums?";
-$l['can_manage_forum_announcements'] = "Can manage forum announcements?";
-$l['can_moderate'] = "Can moderate posts, threads, and attachments?";
-$l['can_manage_attachments'] = "Can manage attachments?";
+$l['can_manage_forums'] = "Voi hallita alueita?";
+$l['can_manage_forum_announcements'] = "Voi hallita huoneilmoituksia?";
+$l['can_moderate'] = "Voi hallita viestejä, keskusteluja ja liitteitä valvojana?";
+$l['can_manage_attachments'] = "Voi hallita liitetiedostoja?";
 
 ?>

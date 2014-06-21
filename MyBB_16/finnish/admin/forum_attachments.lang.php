@@ -1,108 +1,106 @@
 <?php
 /**
- * MyBB 1.6 English Language Pack
- * Copyright 2010 MyBB Group, All Rights Reserved
- *
- * $Id: forum_attachments.lang.php 5297 2010-12-28 22:01:14Z Tomm $
+ * MyBB 1.6 Finnish Language Pack
+ * Suomentanut Vesa Piittinen, katso http://community.mybb.com/thread-89482.html
  */
 
 // Tabs
-$l['attachments'] = "Attachments";
-$l['stats'] = "Statistics";
-$l['find_attachments'] = "Find Attachments";
-$l['find_attachments_desc'] = "Using the attachments search system you can search for specific files users have attached to your forums. Begin by entering some search terms below. All fields are optional and won't be included in the criteria unless they contain a value.";
-$l['find_orphans'] = "Find Orphaned Attachments";
-$l['find_orphans_desc'] = "Orphaned attachments are attachments which are for some reason missing in the database or the file system. This utility will assist you in locating and removing them.";
-$l['attachment_stats'] = "Attachment Statistics";
-$l['attachment_stats_desc'] = "Below are some general statistics for the attachments currently on your forum.";
+$l['attachments'] = "Liitetiedostot";
+$l['stats'] = "Tilastot";
+$l['find_attachments'] = "Etsi liitteitä";
+$l['find_attachments_desc'] = "Liitetiedostojen hakujärjestelmällä voit etsiä tiettyjä käyttäjien lähettämiä tiedostoja. Kaikki kentät ovat valinnaisia eikä niitä huomioida hakuun ellei niihin ole syötetty arvoa.";
+$l['find_orphans'] = "Paikanna orvot liitteet";
+$l['find_orphans_desc'] = "Orpoutuneet liitetiedostot ovat liitteitä, jotka syystä tai toisesta puuttuvat joko tietokannasta tai tiedostojärjestelmästä. Tämä työkalu auttaa paikantamaan ja poistamaan virheelliset merkinnät.";
+$l['attachment_stats'] = "Liitetiedostojen tilastot";
+$l['attachment_stats_desc'] = "Yleisiä keskustelualueen liitetiedostoihin liittyviä tilastoja.";
 
 // Errors
-$l['error_nothing_selected'] = "Please select one or more attachments to delete.";
-$l['error_no_attachments'] = "There aren't any attachments on your forum yet. Once an attachment is posted you'll be able to access this section.";
-$l['error_not_all_removed'] = "Only some orphaned attachments were successfully deleted, others could not be removed from the uploads directory.";
-$l['error_invalid_username'] = "The username you entered is invalid.";
-$l['error_invalid_forums'] = "One or more forums you selected are invalid.";
-$l['error_no_results'] = "No attachments were found with the specified search criteria.";
-$l['error_not_found'] = "Attachment file could not be found in the uploads directory.";
-$l['error_not_attached'] = "Attachment was uploaded over 24 hours ago but not attached to a post.";
-$l['error_does_not_exist'] = "Thread or post for this attachment no longer exists.";
+$l['error_nothing_selected'] = "Valitse vähintään yksi liitetiedosto poistettavaksi.";
+$l['error_no_attachments'] = "Keskustelualueellasi ei ole liitetiedostoja. Tämä sivu tulee käytettäväksi kunhan ensimmäinen liitetiedosto on lähetetty.";
+$l['error_not_all_removed'] = "Vain osa orvoista liitteistä poistettiin, joitakin ei voitu poistaa liitteiden hakemistosta.";
+$l['error_invalid_username'] = "Kelvoton käyttäjänimi.";
+$l['error_invalid_forums'] = "Vähintään yksi valituista alueista on kelvoton.";
+$l['error_no_results'] = "Hakuehdoilla ei löytynyt liitetiedostoja.";
+$l['error_not_found'] = "Liitetiedostoa ei löytynyt liitteiden hakemistosta.";
+$l['error_not_attached'] = "Liite lähetettiin yli 24 tuntia sitten, mutta sitä ei liitetty viestiin.";
+$l['error_does_not_exist'] = "Tämän liitteen keskustelua tai viestiä ei ole enää olemassa.";
 
 // Success
-$l['success_deleted'] = "The selected attachments have been deleted successfully.";
-$l['success_orphan_deleted'] = "The selected orphaned attachments have been deleted successfully.";
-$l['success_no_orphans'] = "There are no orphaned attachments on your forum.";
+$l['success_deleted'] = "Valitut liitetiedostot on poistettu.";
+$l['success_orphan_deleted'] = "Valitut orvot liitetiedostot on poistettu.";
+$l['success_no_orphans'] = "Keskustelualueellasi ei ole orpoja liitetiedostoja.";
 
 // Confirm
-$l['confirm_delete'] = "Are you sure you wish to delete the selected attachments?";
+$l['confirm_delete'] = "Haluatko varmasti poistaa valitut liitetiedostot?";
 
 // == Pages
 // = Stats
-$l['general_stats'] = "General Statistics";
-$l['stats_attachment_stats'] = "Attachments - Attachment Statistics";
-$l['num_uploaded'] = "<strong>No. Uploaded Attachments</strong>";
-$l['space_used'] = "<strong>Attachment Space Used</strong>";
-$l['bandwidth_used'] = "<strong>Estimated Bandwidth Usage</strong>";
-$l['average_size'] = "<strong>Average Attachment Size</strong>";
-$l['size'] = "Size";
-$l['posted_by'] = "Posted By";
-$l['thread'] = "Thread";
-$l['downloads'] = "Downloads";
-$l['date_uploaded'] = "Date Uploaded";
-$l['popular_attachments'] = "Top 5 Most Popular Attachments";
-$l['largest_attachments'] = "Top 5 Largest Attachments";
-$l['users_diskspace'] = "Top 5 Users Using the Most Disk Space";
-$l['username'] = "Username";
-$l['total_size'] = "Total Size";
+$l['general_stats'] = "Yleiset tilastot";
+$l['stats_attachment_stats'] = "Liitetiedostot - liitteiden tilastot";
+$l['num_uploaded'] = "<strong>Lähettyjen liitteiden määrä</strong>";
+$l['space_used'] = "<strong>Tiedostojen käyttämä tila</strong>";
+$l['bandwidth_used'] = "<strong>Arvioitu kaistankäyttö</strong>";
+$l['average_size'] = "<strong>Keskimääräinen koko</strong>";
+$l['size'] = "Koko";
+$l['posted_by'] = "Lähettäjä";
+$l['thread'] = "Keskustelu";
+$l['downloads'] = "Lataukset";
+$l['date_uploaded'] = "Latauspäivä";
+$l['popular_attachments'] = "Viisi suosituinta liitetiedostoa";
+$l['largest_attachments'] = "Viisi suurinta liitetiedostoa";
+$l['users_diskspace'] = "Viisi eniten tilaa käyttävää käyttäjää";
+$l['username'] = "Käyttäjänimi";
+$l['total_size'] = "Käytetty tila";
 
 // = Orphans
-$l['orphan_results'] = "Orphaned Attachments Search - Results";
-$l['orphan_attachments_search'] = "Orphaned Attachments Search";
-$l['reason_orphaned'] = "Reason Orphaned";
-$l['reason_not_in_table'] = "Not in attachments table";
-$l['reason_file_missing'] = "Attached file missing";
-$l['reason_thread_deleted'] = "Thread been deleted";
-$l['reason_post_never_made'] = "Post never made";
-$l['unknown'] = "Unknown";
-$l['results'] = "Results";
-$l['step1'] = "Step 1";
-$l['step2'] = "Step 2";
-$l['step1of2'] = "Step 1 of 2 - File System Scan";
-$l['step2of2'] = "Step 2 of 2 - Database Scan";
-$l['step1of2_line1'] = "Please wait, the file system is currently being scanned for orphaned attachments.";
-$l['step2of2_line1'] = "Please wait, the database is currently being scanned for orphaned attachments.";
-$l['step_line2'] = "You'll automatically be redirected to the next step once this process is complete.";
+$l['orphan_results'] = "Orpojen liitteiden haun tulokset";
+$l['orphan_attachments_search'] = "Orpojen liitteiden haku";
+$l['reason_orphaned'] = "Orpoutumisen syy";
+$l['reason_not_in_table'] = "Puuttuu liitteiden taulusta";
+$l['reason_file_missing'] = "Liitetty tiedosto puuttuu";
+$l['reason_thread_deleted'] = "Keskustelu on poistettu";
+$l['reason_post_never_made'] = "Viestiä ei luotu";
+$l['unknown'] = "Tuntematon";
+$l['results'] = "tulosta";
+$l['step1'] = "Vaihe 1";
+$l['step2'] = "Vaihe 2";
+$l['step1of2'] = "Vaihe 1 / 2 - Tiedostojärjestelmän tarkistus";
+$l['step2of2'] = "Vaihe 2 / 2 - Tietokannan tarkistus";
+$l['step1of2_line1'] = "Odota hetki, paikannetaan orpoja liitetiedostoja tiedostojärjestelmästä.";
+$l['step2of2_line1'] = "Odota hetki, paikannetaan orpoja liitetiedostoja tietokannasta.";
+$l['step_line2'] = "Seuraavaan vaiheeseen siirrytään automaattisesti tarkistuksen valmistuttua.";
 
 // = Attachments / Index
-$l['index_find_attachments'] = "Attachments - Find Attachments";
-$l['find_where'] = "Find attachments where...";
-$l['name_contains'] = "File name contains";
-$l['name_contains_desc'] = "To search by wild card enter *.[file extension]. Example: *.zip.";
-$l['type_contains'] = "File type contains";
-$l['forum_is'] = "Forum is";
-$l['username_is'] = "Posters' username is";
-$l['more_than'] = "More than";
-$l['greater_than'] = "Greater than";
-$l['is_exactly'] = "Is exactly";
-$l['less_than'] = "Less than";
-$l['date_posted_is'] = "Date posted is";
-$l['days_ago'] = "days ago";
-$l['file_size_is'] = "File size is";
-$l['kb'] = "KB";
-$l['download_count_is'] = "Download count is";
-$l['display_options'] = "Display Options";
-$l['filename'] = "File Name";
-$l['filesize'] = "File Size";
-$l['download_count'] = "Download Count";
-$l['post_username'] = "Post Username";
-$l['asc'] = "Ascending";
-$l['desc'] = "Descending";
-$l['sort_results_by'] = "Sort results by";
-$l['results_per_page'] = "Results per page";
-$l['in'] = "in";
+$l['index_find_attachments'] = "Liitetiedostojen haku";
+$l['find_where'] = "Hae liitetiedostoja joiden...";
+$l['name_contains'] = "Tiedostonimi sisältää";
+$l['name_contains_desc'] = "Tähtimerkki täsmää kaikkeen, esim. kaikki zip-tiedostot löytyy haulla \"*.zip\".";
+$l['type_contains'] = "Tiedostotyyppi sisältää";
+$l['forum_is'] = "Alue on";
+$l['username_is'] = "Lähettäjän nimi sisältää";
+$l['more_than'] = "Vähintään";
+$l['greater_than'] = "Vähintään";
+$l['is_exactly'] = "Täsmälleen";
+$l['less_than'] = "Korkeintaan";
+$l['date_posted_is'] = "Lähetyspäivä on";
+$l['days_ago'] = "päivää sitten";
+$l['file_size_is'] = "Tiedostokoko on";
+$l['kb'] = "kt";
+$l['download_count_is'] = "Latausmäärä on";
+$l['display_options'] = "Näyttötapa";
+$l['filename'] = "Tiedoston nimi";
+$l['filesize'] = "Tiedoston koko";
+$l['download_count'] = "Latausmäärä";
+$l['post_username'] = "Viestin kirjoittaja";
+$l['asc'] = "nousevasti";
+$l['desc'] = "laskevasti";
+$l['sort_results_by'] = "Lajittele tulokset";
+$l['results_per_page'] = "Kerralla näytettävien tulosten määrä";
+$l['in'] = "järjestäen";
 
 // Buttons
-$l['button_delete_orphans'] = "Delete Checked Orphans";
-$l['button_delete_attachments'] = "Delete Checked Attachments";
-$l['button_find_attachments'] = "Find Attachments";
+$l['button_delete_orphans'] = "Poista valitut orvot";
+$l['button_delete_attachments'] = "Poista valitut liitteet";
+$l['button_find_attachments'] = "Suorita haku";
 
 ?>

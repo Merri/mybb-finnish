@@ -1,45 +1,43 @@
 <?php
 /**
- * MyBB 1.6 English Language Pack
- * Copyright 2010 MyBB Group, All Rights Reserved
- * 
- * $Id: config_module_meta.lang.php 5297 2010-12-28 22:01:14Z Tomm $
+ * MyBB 1.6 Finnish Language Pack
+ * Suomentanut Vesa Piittinen, katso http://community.mybb.com/thread-89482.html
  */
  
-$l['configuration'] = "Configuration";
+$l['configuration'] = "Hallinta";
 
-$l['bbsettings'] = "Settings";
-$l['banning'] = "Banning";
-$l['custom_profile_fields'] = "Custom Profile Fields";
-$l['smilies'] = "Smilies";
-$l['word_filters'] = "Word Filters";
+$l['bbsettings'] = "Asetukset";
+$l['banning'] = "Bannit";
+$l['custom_profile_fields'] = "Omat profiilikentät";
+$l['smilies'] = "Hymiöt";
+$l['word_filters'] = "Sanasuodatin";
 $l['mycode'] = "MyCode";
-$l['languages'] = "Languages";
-$l['post_icons'] = "Post Icons";
-$l['help_documents'] = "Help Documents";
-$l['plugins'] = "Plugins";
-$l['attachment_types'] = "Attachment Types";
-$l['moderator_tools'] = "Moderator Tools";
-$l['spiders_bots'] = "Spiders / Bots";
-$l['calendars'] = "Calendars";
-$l['warning_system'] = "Warning System";
-$l['thread_prefixes'] = "Thread Prefixes";
+$l['languages'] = "Kielet";
+$l['post_icons'] = "Viestikuvakkeet";
+$l['help_documents'] = "Opaste";
+$l['plugins'] = "Liitännäiset";
+$l['attachment_types'] = "Sallitut liitteet";
+$l['moderator_tools'] = "Valvontatyökalut";
+$l['spiders_bots'] = "Tiedonkeruubotit";
+$l['calendars'] = "Kalenterit";
+$l['warning_system'] = "Varoitusjärjestelmä";
+$l['thread_prefixes'] = "Keskustelun etuliitteet";
 
-$l['can_manage_settings'] = "Can manage settings?";
-$l['can_manage_banned_accounts'] = "Can manage banned accounts?";
-$l['can_manage_custom_profile_fields'] = "Can manage custom profile fields?";
-$l['can_manage_smilies'] = "Can manage smilies?";
-$l['can_manage_bad_words'] = "Can manage word filters?";
-$l['can_manage_custom_mycode'] = "Can manage custom MyCode?";
-$l['can_manage_language_packs'] = "Can manage language packs?";
-$l['can_manage_post_icons'] = "Can manage post icons?";
-$l['can_manage_help_documents'] = "Can manage help documents?";
-$l['can_manage_plugins'] = "Can manage plugins?";
-$l['can_manage_attachment_types'] = "Can manage attachment types?";
-$l['can_manage_spiders_bots'] = "Can manage spiders / bots?";
-$l['can_manage_calendars'] = "Can manage calendars?";
-$l['can_manage_warning_system'] = "Can manage warning system?";
-$l['can_manage_mod_tools'] = "Can manage moderator tools?";
-$l['can_manage_thread_prefixes'] = "Can manage thread prefixes?";
+$l['can_manage_settings'] = "Voi hallita asetuksia?";
+$l['can_manage_banned_accounts'] = "Voi hallita banneja?";
+$l['can_manage_custom_profile_fields'] = "Voi hallita omia profiilikenttiä?";
+$l['can_manage_smilies'] = "Voi hallita hymiöitä?";
+$l['can_manage_bad_words'] = "Voi hallita sanasuodattimia?";
+$l['can_manage_custom_mycode'] = "Voi hallita MyCodeja?";
+$l['can_manage_language_packs'] = "Voi hallita kielipaketteja?";
+$l['can_manage_post_icons'] = "Voi hallita viestikuvakkeita?";
+$l['can_manage_help_documents'] = "Voi hallita opastetta?";
+$l['can_manage_plugins'] = "Voi hallita liitännäisiä?";
+$l['can_manage_attachment_types'] = "Voi hallita liitetiedostojen sallintaa?";
+$l['can_manage_spiders_bots'] = "Voi hallita tiedonkeruubotteja?";
+$l['can_manage_calendars'] = "Voi hallita kalentereita?";
+$l['can_manage_warning_system'] = "Voi hallita varoitusjärjestelmää?";
+$l['can_manage_mod_tools'] = "Voi hallita valvojien työkaluja?";
+$l['can_manage_thread_prefixes'] = "Voi hallita keskustelujen etuliitteitä?";
 
 ?>

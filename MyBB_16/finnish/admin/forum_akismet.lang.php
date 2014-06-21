@@ -1,30 +1,28 @@
 <?php
 /**
- * MyBB 1.6 English Language Pack
- * Copyright 2010 MyBB Group, All Rights Reserved
- * 
- * $Id: forum_akismet.lang.php 5297 2010-12-28 22:01:14Z Tomm $
+ * MyBB 1.6 Finnish Language Pack
+ * Suomentanut Vesa Piittinen, katso http://community.mybb.com/thread-89482.html
  */
 
 $l['akismet'] = "Akismet";
-$l['akismet_desc'] = "Akismet is a program that helps prevent SPAM on your forum.";
+$l['akismet_desc'] = "Akismet auttaa estämään roskapostia ilmaantumasta keskustelualueelle.";
 
-$l['can_manage_akismet'] = "Can Manage Akismet?";
-$l['title'] = "Title";
-$l['detected_spam_messages'] = "Detected Spam Messages";
-$l['unmark_selected'] = "Unmark Selected";
-$l['deleted_selected'] = "Delete Selected";
-$l['delete_all'] = "Delete All";
+$l['can_manage_akismet'] = "Voiko hallita Akismetiä?";
+$l['title'] = "Otsikko";
+$l['detected_spam_messages'] = "Tunnistetut roskapostit";
+$l['unmark_selected'] = "Eivät ole roskaa";
+$l['deleted_selected'] = "Poista valitut";
+$l['delete_all'] = "Poista kaikki";
 
-$l['success_deleted_spam'] = "All detected spam messages have been deleted successfully.";
-$l['success_unmarked'] = "The selected messages are no longer marked as spam.";
-$l['success_spam_deleted'] = "The select spam messages have been deleted successfully.";
+$l['success_deleted_spam'] = "Kaikki tunnistetut roskaviestit on poistettu.";
+$l['success_unmarked'] = "Valitut viestit eivät ole enää luokiteltu roskaksi.";
+$l['success_spam_deleted'] = "Valitut roskaviestit on poistettu.";
 
-$l['confirm_spam_deletion'] = "Are you sure you want to delete all detected messages?";
+$l['confirm_spam_deletion'] = "Haluatko varmasti poistaa kaikki roskaksi tunnistetut viestit?";
 
-$l['error_deletepost'] = "You must select at least one post to delete.";
-$l['error_unmark'] = "You must select at least one post to unmark.";
+$l['error_deletepost'] = "Valitse ainakin yksi poistettavaksi.";
+$l['error_unmark'] = "Valitse ainakin yksi kumottavaksi.";
 
-$l['no_spam_found'] = "There are currently no spam messages detected by Akismet.";
+$l['no_spam_found'] = "Akismet ei ole havainnut uusia roskaviestejä.";
 
 ?>

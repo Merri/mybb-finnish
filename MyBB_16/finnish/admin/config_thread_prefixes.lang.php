@@ -1,48 +1,46 @@
 <?php
 /**
- * MyBB 1.6 English Language Pack
- * Copyright 2010 MyBB Group, All Rights Reserved
- * 
- * $Id: config_thread_prefixes.lang.php 5828 2012-05-08 16:06:16Z Tomm $
+ * MyBB 1.6 Finnish Language Pack
+ * Suomentanut Vesa Piittinen, katso http://community.mybb.com/thread-89482.html
  */
 
-$l['thread_prefixes'] = "Thread Prefixes";
-$l['thread_prefixes_desc'] = "Thread prefixes allow you to define prefixes that users can assign to their threads. Threads can then be filtered by prefix within a forum.";
+$l['thread_prefixes'] = "Keskustelujen etuliitteet";
+$l['thread_prefixes_desc'] = "Keskustelujen etuliitteet voidaan asettaa keskustelujen otsikon eteen toimimaan tarkentimena. Keskusteluja voidaan suodattaa etuliitteen perusteella.";
 
-$l['add_new_thread_prefix'] = "Add New Thread Prefix";
-$l['add_new_thread_prefix_desc'] = "Here you can add a new thread prefix and define where it is available, as well as which usergroups can use it.";
+$l['add_new_thread_prefix'] = "Lisää etuliite";
+$l['add_new_thread_prefix_desc'] = "Täällä voit luoda uuden keskustelun etuliitteen ja määrittää missä se on käytettävissä, sekä mitkä ryhmät voivat sitä käyttää.";
 
-$l['edit_prefix'] = "Edit Prefix";
-$l['edit_prefix_desc'] = "Here you can edit a thread prefix and change how it is display, where it is available and which usergroups can use it.";
-$l['edit_thread_prefix'] = "Edit Thread Prefix";
-$l['delete_thread_prefix'] = "Delete Thread Prefix";
+$l['edit_prefix'] = "Muokkaa etuliitettä";
+$l['edit_prefix_desc'] = "Täällä voit muokata keskustelun etuliitettä ja kuinka se on esillä, saatavilla ja mitkä ryhmät voivat sitä käyttää.";
+$l['edit_thread_prefix'] = "Muokkaa keskustelun etuliitettä";
+$l['delete_thread_prefix'] = "Poista keskustelun etuliite";
 
-$l['prefix_options'] = "Prefix Options";
-$l['save_thread_prefix'] = "Save Thread Prefix";
+$l['prefix_options'] = "Etuliitteen asetukset";
+$l['save_thread_prefix'] = "Tallenna keskustelun etuliite";
 
-$l['prefix'] = "Prefix";
-$l['prefix_desc'] = "Plain text version of the prefix to be displayed in selection menus.";
-$l['display_style'] = "Display Style";
-$l['display_style_desc'] = "This is how the prefix will appear next to thread subjects. You may enter HTML markup here or simply use the same as the plain text version above.";
-$l['available_in_forums'] = "Available in forums";
-$l['available_to_groups'] = "Available to groups";
-$l['all_forums'] = "All forums";
-$l['all_groups'] = "All groups";
-$l['select_forums'] = "Select forums";
-$l['select_groups'] = "Select groups";
-$l['groups_colon'] = "Groups:";
+$l['prefix'] = "Etuliite";
+$l['prefix_desc'] = "Tekstiversio etuliitteestä, joka näytetään alasvetovalikossa.";
+$l['display_style'] = "Näyttötyyli";
+$l['display_style_desc'] = "Tämä määrää kuinka etuliite näkyy keskustelujen otsikoissa. Tähän voi syöttää HTML:ää tai käyttää samaa tekstiä.";
+$l['available_in_forums'] = "Alueet";
+$l['available_to_groups'] = "Ryhmät";
+$l['all_forums'] = "Kaikki alueet";
+$l['all_groups'] = "Kaikki ryhmät";
+$l['select_forums'] = "Valitse alueet";
+$l['select_groups'] = "Valitse ryhmät";
+$l['groups_colon'] = "Ryhmät:";
 
-$l['no_thread_prefixes'] = "There are no thread prefixes setup on your forum.";
+$l['no_thread_prefixes'] = "Keskustelualueella ei ole keskustelun etuliitteitä.";
 
-$l['confirm_thread_prefix_deletion'] = "Are you sure you want to delete this thread prefix? Note: You should remember to update any custom moderator tools which use this prefix after deletion.";
+$l['confirm_thread_prefix_deletion'] = "Haluatko varmasti poistaa tämän keskustelun etuliitteen? Huomaa: sinun tulee muistaa päivittää kaikki tätä etuliitettä käyttävät omat valvontatyökalut poistamisen jälkeen.";
 
-$l['success_thread_prefix_created'] = "The thread prefix has been created successfully.";
-$l['success_thread_prefix_updated'] = "The thread prefix has been updated successfully.";
-$l['success_thread_prefix_deleted'] = "The thread prefix has been deleted successfully. Please update any custom moderator tools which use this prefix";
+$l['success_thread_prefix_created'] = "Etuliite on luotu.";
+$l['success_thread_prefix_updated'] = "Etuliite on päivitetty.";
+$l['success_thread_prefix_deleted'] = "Etuliite on poistettu. Muista päivittää tätä etuliitettä käyttäneet omat valvontatyökalut.";
 
-$l['error_missing_prefix'] = "Please enter the prefix you wish to add.";
-$l['error_missing_display_style'] = "Please enter a display style for this prefix.";
-$l['error_no_forums_selected'] = "Please select the forums in which this prefix will be available.";
-$l['error_no_groups_selected'] = "Please select the groups to which this prefix will be available.";
-$l['error_invalid_prefix'] = "The specified thread prefix does not exist.";
+$l['error_missing_prefix'] = "Syötä lisättävä etuliite.";
+$l['error_missing_display_style'] = "Syötä etuliitteen näyttötyyli.";
+$l['error_no_forums_selected'] = "Valitse etuliitettä käyttävät alueet.";
+$l['error_no_groups_selected'] = "Valitse etuliitettä käyttävät ryhmät.";
+$l['error_invalid_prefix'] = "Etuliitettä ei ole olemassa.";
 ?>

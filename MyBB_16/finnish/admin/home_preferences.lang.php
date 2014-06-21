@@ -1,24 +1,22 @@
 <?php
 /**
- * MyBB 1.6 English Language Pack
- * Copyright 2010 MyBB Group, All Rights Reserved
- * 
- * $Id: home_preferences.lang.php 5297 2010-12-28 22:01:14Z Tomm $
+ * MyBB 1.6 Finnish Language Pack
+ * Suomentanut Vesa Piittinen, katso http://community.mybb.com/thread-89482.html
  */
 
-$l['preferences_and_personal_notes'] = "Preferences &amp; Personal Notes";
-$l['prefs_and_personal_notes_description'] = "Here you can manage your Admin Control Panel preferences and leave personal notes for yourself.";
+$l['preferences_and_personal_notes'] = "Ylläpitoasetukset &amp; omat muistiinpanot";
+$l['prefs_and_personal_notes_description'] = "Täällä voit asettaa ylläpidon asetuksia sekä jättää muistiinpanoja itsellesi.";
 
-$l['preferences'] = "Preferences";
-$l['global_preferences'] = "Global Preferences";
-$l['acp_theme'] = "Admin Control Panel Theme";
-$l['select_acp_theme'] = "Please select a theme to use in the Admin Control Panel";
-$l['notes_not_shared'] = "These notes are not shared with other Administrators.";
-$l['save_notes_and_prefs'] = "Save Personal Notes & Preferences";
-$l['personal_notes'] = "Personal Notes";
-$l['codepress'] = "Turn on / off Codepress";
-$l['use_codepress_desc'] = "This preference allows you to turn off Codepress (used in template editing and stylesheet editing for syntax highlighing) if you are experiencing issues / slow loading.";
+$l['preferences'] = "Ylläpitoasetukset";
+$l['global_preferences'] = "Yleiset ylläpitoasetukset";
+$l['acp_theme'] = "Ylläpidon teema";
+$l['select_acp_theme'] = "Valitse ylläpidossa käytettävä teema";
+$l['notes_not_shared'] = "Nämä muistiinpanot eivät ole muiden ylläpitäjien luettavissa.";
+$l['save_notes_and_prefs'] = "Tallenna omat muistiinpanot ja ylläpitoasetukset";
+$l['personal_notes'] = "Omat muistiinpanot";
+$l['codepress'] = "Kytke Codepress päälle/pois";
+$l['use_codepress_desc'] = "Tämä asetus mahdollistaa Codepressin kytkemisen pois käytöstä (jota käytetään templaattien ja tyylitiedostojen muokkauksen syntaksivärityksessä), mikäli siinä on ongelmia kuten hidas latautuminen.";
 
-$l['success_preferences_updated'] = "The preferences have been successfully updated.";
+$l['success_preferences_updated'] = "Ylläpitoasetukset on tallennettu.";
 
 ?>

@@ -20,7 +20,7 @@ $langinfo['website'] = "http://vesa.piittinen.name/";
 $langinfo['version'] = "1611";
 
 // Sets if the translation includes the Admin CP (1 = yes, 0 = no)
-$langinfo['admin'] = 0;
+$langinfo['admin'] = 1;
 
 // Sets if the language is RTL (Right to Left) (1 = yes, 0 = no)
 $langinfo['rtl'] = 0;

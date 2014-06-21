@@ -1,51 +1,49 @@
 <?php
 /**
- * MyBB 1.6 English Language Pack
- * Copyright 2010 MyBB Group, All Rights Reserved
- * 
- * $Id: forum_moderation_queue.lang.php 5297 2010-12-28 22:01:14Z Tomm $
+ * MyBB 1.6 Finnish Language Pack
+ * Suomentanut Vesa Piittinen, katso http://community.mybb.com/thread-89482.html
  */
 
 // Tabs
-$l['moderation_queue'] = "Moderation Queue";
-$l['threads'] = "Threads";
-$l['threads_desc'] = "Here you can view and approve threads in the moderation queue.";
-$l['posts'] = "Posts";
-$l['posts_desc'] = "Here you can view and approve posts in the moderation queue.";
-$l['attachments'] = "Attachments";
-$l['attachments_desc'] = "Here you can view and approve attachments in the moderation queue.";
-$l['threads_awaiting_moderation'] = "Threads Awaiting Moderation";
-$l['posts_awaiting_moderation'] = "Posts Awaiting Moderation";
-$l['attachments_awaiting_moderation'] = "Attachments Awaiting Moderation";
+$l['moderation_queue'] = "Valvontajono";
+$l['threads'] = "Keskustelut";
+$l['threads_desc'] = "Tässä voit nähdä ja hyväksyä valvontajonossa olevia keskusteluja.";
+$l['posts'] = "Viestit";
+$l['posts_desc'] = "Tässä voit nähdä ja hyväksyä valvontajonossa olevia viestejä.";
+$l['attachments'] = "Liitetiedostot";
+$l['attachments_desc'] = "Tässä voit nähdä ja hyväksyä valvontajonossa olevia liitetiedostoja.";
+$l['threads_awaiting_moderation'] = "Huomiota kaipaavat keskustelut";
+$l['posts_awaiting_moderation'] = "Huomiota kaipaavat viestit";
+$l['attachments_awaiting_moderation'] = "Huomiota kaipaavat liitetiedostot";
 
 // Errors
-$l['error_no_posts'] = "There are no posts currently awaiting moderation.";
-$l['error_no_attachments'] = "There are no attachments currently awaiting moderation.";
-$l['error_no_threads'] = "There are no threads, posts or attachments currently awaiting moderation.";
+$l['error_no_posts'] = "Valvontajonossa ei ole viestejä.";
+$l['error_no_attachments'] = "Valvontajonossa ei ole liitetiedostoja.";
+$l['error_no_threads'] = "Valvontajonossa ei ole keskusteluja, viestejä eikä liitetiedostoja.";
 
 // Success
-$l['success_threads'] = "The selected threads have been moderated successfully.";
-$l['success_posts'] = "The selected posts have been moderated successfully.";
-$l['success_attachments'] = "The selected attachments have been moderated successfully.";
+$l['success_threads'] = "Valvontatoimenpiteet valituille keskusteluille onnistuivat.";
+$l['success_posts'] = "Valvontatoimenpiteet valituille viesteille onnistuivat.";
+$l['success_attachments'] = "Valvontatoimenpiteet valituille liitetiedostoille onnistuivat.";
 
 // Pages
-$l['subject'] = "Subject";
-$l['author'] = "Author";
-$l['posted'] = "Posted";
-$l['ignore'] = "Ignore";
-$l['approve'] = "Approve";
-$l['forum'] = "Forum:";
-$l['thread'] = "Thread:";
-$l['post'] = "Post:";
-$l['re'] = "RE:";
-$l['filename'] = "File Name";
-$l['uploadedby'] = "Uploaded by";
-$l['controls'] = "Controls";
+$l['subject'] = "Otsikko";
+$l['author'] = "Kirjoittaja";
+$l['posted'] = "Lähetetty";
+$l['ignore'] = "Ohita";
+$l['approve'] = "Hyväksy";
+$l['forum'] = "Huone:";
+$l['thread'] = "Keskustelu:";
+$l['post'] = "Viesti:";
+$l['re'] = "VS:";
+$l['filename'] = "Tiedostonimi";
+$l['uploadedby'] = "Lähettänyt";
+$l['controls'] = "Hallinta";
 
 // Buttons
-$l['mark_as_ignored'] = "Mark all as ignored";
-$l['mark_as_deleted'] = "Mark all for deletion";
-$l['mark_as_approved'] = "Mark all as approved";
-$l['perform_action'] = "Perform Actions";
+$l['mark_as_ignored'] = "Ohita kaikki";
+$l['mark_as_deleted'] = "Poista kaikki";
+$l['mark_as_approved'] = "Hyväksy kaikki";
+$l['perform_action'] = "Suorita toimet";
 
 ?>

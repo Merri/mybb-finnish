@@ -1,54 +1,52 @@
 <?php
 /**
- * MyBB 1.6 English Language Pack
- * Copyright 2010 MyBB Group, All Rights Reserved
- * 
- * $Id$
+ * MyBB 1.6 Finnish Language Pack
+ * Suomentanut Vesa Piittinen, katso http://community.mybb.com/thread-89482.html
  */
 
-$l['forum_announcements'] = "Forum Announcements";
-$l['forum_announcements_desc'] = "Here you can manage the announcements on your board. Global announcements are shown in all forums, whereas ones set for individual forums are shown in that forum and all child forums.";
-$l['add_announcement'] = "Add Announcement";
-$l['add_announcement_desc'] = "Here you can add an announcement for a single forum or all forums.";
-$l['update_announcement'] = "Save Announcement";
-$l['update_announcement_desc'] = "Here you can update an announcements details.";
+$l['forum_announcements'] = "Huoneilmoitukset";
+$l['forum_announcements_desc'] = "Täällä voit hallita keskustelualueen ilmoituksia. Yleiset ilmoitukset näkyvät kaikissa huoneissa, kun taas tiettyyn huoneeseen asetetut näkyvät vain siellä sekä sen huoneen alahuoneissa.";
+$l['add_announcement'] = "Lisää ilmoitus";
+$l['add_announcement_desc'] = "Täällä voit luoda ilmoituksen tiettyyn huoneeseen tai yleisesti kaikkiin huoneisiin.";
+$l['update_announcement'] = "Tallenna ilmoitus";
+$l['update_announcement_desc'] = "Täällä voi päivittää ilmoitusten tietoja.";
 
-$l['start_date_desc'] = "On this date and time (in GMT), the announcement will appear in the selected forum(s).";
-$l['end_date_desc'] = "On this date and time (in GMT), the announcement will be hidden from view on your forum. You may select never end this announcement until you delete it or edit its end date.";
-$l['forums_to_appear_in_desc'] = "The announcement will appear in the forums selected below. The announcement will appear in the selected forum and all child forums of the selected forum.";
+$l['start_date_desc'] = "Ilmoitus ilmaantuu annetulla hetkellä (UTC-aikaa) valituissa huoneissa.";
+$l['end_date_desc'] = "Ilmoitus katoaa näkyviltä annetulla hetkellä (UTC-aikaa). Lopetusajankohtaa on mahdollista muuttaa ja sen voi jättää määrittämättä.";
+$l['forums_to_appear_in_desc'] = "Ilmoitus ilmestyy valittuihin huoneisiin. Ilmoitus on näkyvillä valitussa huoneessa ja kaikissa sen alahuoneissa.";
 
-$l['announcement'] = "Announcement";
-$l['global_announcements'] = "Global Announcements";
+$l['announcement'] = "Ilmoitus";
+$l['global_announcements'] = "Yleisilmoitus";
 
-$l['no_global_announcements'] = "There are currently no global forum announcements.";
-$l['no_forums'] = "There are currently no forums setup to show forum announcements.";
+$l['no_global_announcements'] = "Yleisiä ilmoituksia ei ole tällä hetkellä.";
+$l['no_forums'] = "Huoneilmoituksia ei ole tällä hetkellä.";
 
-$l['confirm_announcement_deletion'] = "Are you sure you wish to delete this announcement?";
+$l['confirm_announcement_deletion'] = "Haluatko varmasti poistaa tämän ilmoituksen?";
 
-$l['success_announcement_deleted'] = "The selected announcement has been deleted successfully.";
-$l['success_added_announcement'] = "The selected announcement has been created successfully.";
-$l['success_updated_announcement'] = "The selected announcement has been updated successfully.";
+$l['success_announcement_deleted'] = "Ilmoitus on poistettu.";
+$l['success_added_announcement'] = "Ilmoitus on luotu.";
+$l['success_updated_announcement'] = "Ilmoitus on päivitetty.";
 
-$l['error_invalid_announcement'] = "Please input a valid announcement.";
-$l['error_missing_title'] = "You did not enter a title.";
-$l['error_missing_message'] = "You did not enter a message.";
-$l['error_missing_forum'] = "You did not select a forum.";
-$l['error_invalid_start_date'] = "The starting date for the announcement is invalid.";
-$l['error_invalid_end_date'] = "The ending date for the announcement is invalid.";
-$l['error_end_before_start'] = "The ending date must be after the start date.";
+$l['error_invalid_announcement'] = "Syötä kelvollinen ilmoitus.";
+$l['error_missing_title'] = "Et antanut otsikkoa.";
+$l['error_missing_message'] = "Jätit viestikentän tyhjäksi.";
+$l['error_missing_forum'] = "Et valinnut huonetta.";
+$l['error_invalid_start_date'] = "Aloituspäivämäärä ei ole kelvollinen.";
+$l['error_invalid_end_date'] = "Lopetuspäivämäärä ei ole kelvollinen.";
+$l['error_end_before_start'] = "Lopetuspäivämäärän pitää olla alkamispäivämäärää myöhemmin.";
 
-$l['add_an_announcement'] = "Add an announcement";
-$l['update_an_announcement'] = "Update an announcement";
-$l['save_announcement'] = "Save Announcement";
-$l['title'] = "Title";
-$l['start_date'] = "Start Date";
-$l['end_date'] = "End Date";
-$l['message'] = "Message";
-$l['forums_to_appear_in'] = "Forums to Appear in";
-$l['allow_html'] = "Allow HTML?";
-$l['allow_mycode'] = "Allow MyCode?";
-$l['allow_smilies'] = "Allow Smilies?";
-$l['time'] = "Time:";
-$l['set_time'] = "Set Time";
+$l['add_an_announcement'] = "Lisää ilmoitus";
+$l['update_an_announcement'] = "Päivitä ilmoitus";
+$l['save_announcement'] = "Tallenna ilmoitus";
+$l['title'] = "Otsikko";
+$l['start_date'] = "Alkamispvm";
+$l['end_date'] = "Lopetuspvm";
+$l['message'] = "Viesti";
+$l['forums_to_appear_in'] = "Huoneet";
+$l['allow_html'] = "Salli HTML?";
+$l['allow_mycode'] = "Salli MyCode?";
+$l['allow_smilies'] = "Salli hymiöt?";
+$l['time'] = "Aika:";
+$l['set_time'] = "Aseta aika";
 
 ?>

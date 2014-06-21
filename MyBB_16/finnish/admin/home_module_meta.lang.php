@@ -1,25 +1,23 @@
 <?php
 /**
- * MyBB 1.6 English Language Pack
- * Copyright 2010 MyBB Group, All Rights Reserved
- * 
- * $Id: home_module_meta.lang.php 5297 2010-12-28 22:01:14Z Tomm $
+ * MyBB 1.6 Finnish Language Pack
+ * Suomentanut Vesa Piittinen, katso http://community.mybb.com/thread-89482.html
  */
  
-$l['home'] = "Home";
+$l['home'] = "Etusivu";
 
-$l['dashboard'] = "Dashboard";
-$l['preferences'] = "Preferences";
-$l['version_check'] = "Version Check";
-$l['mybb_credits'] = "MyBB Credits";
+$l['dashboard'] = "Perustiedot";
+$l['preferences'] = "Ylläpitoasetukset";
+$l['version_check'] = "Versiotarkistus";
+$l['mybb_credits'] = "MyBB:n tekijät";
 
-$l['add_new_forum'] = "Add New Forum";
-$l['search_for_users'] = "Search for Users";
-$l['themes'] = "Themes";
-$l['templates'] = "Templates";
-$l['plugins'] = "Plugins";
-$l['database_backups'] = "Database Backups";
-$l['quick_access'] = "Quick Access";
-$l['online_admins'] = "Online Admins";
+$l['add_new_forum'] = "Lisää huone tai kategoria";
+$l['search_for_users'] = "Etsi käyttäjää";
+$l['themes'] = "Teemat";
+$l['templates'] = "Templaatit";
+$l['plugins'] = "Liitännäiset";
+$l['database_backups'] = "Tietokannan kopiointi";
+$l['quick_access'] = "Usein kaivatut";
+$l['online_admins'] = "Paikalla olevat ylläpitäjät";
 
 ?>

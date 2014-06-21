@@ -1,67 +1,65 @@
 <?php
 /**
- * MyBB 1.6 English Language Pack
- * Copyright 2010 MyBB Group, All Rights Reserved
- * 
- * $Id$
+ * MyBB 1.6 Finnish Language Pack
+ * Suomentanut Vesa Piittinen, katso http://community.mybb.com/thread-89482.html
  */
  
-$l['today'] = "Today";
-$l['yesterday'] = "Yesterday";
+$l['today'] = "Tänään";
+$l['yesterday'] = "Eilen";
 
-$l['size_yb'] = "YB";
-$l['size_zb'] = "ZB";
-$l['size_eb'] = "EB";
-$l['size_pb'] = "PB";
-$l['size_tb'] = "TB";
-$l['size_gb'] = "GB";
-$l['size_mb'] = "MB";
-$l['size_kb'] = "KB";
-$l['size_bytes'] = "bytes";
-$l['na'] = "N/A";
+$l['size_yb'] = "Yt";
+$l['size_zb'] = "Zt";
+$l['size_eb'] = "Et";
+$l['size_pb'] = "Pt";
+$l['size_tb'] = "Tt";
+$l['size_gb'] = "Gt";
+$l['size_mb'] = "Mt";
+$l['size_kb'] = "kt";
+$l['size_bytes'] = "tavua";
+$l['na'] = "-";
 
 // Header language strings
-$l['mybb_admin_panel'] = "MyBB Control Panel";
-$l['mybb_admin_cp'] = "MyBB Admin CP";
-$l['logged_in_as'] = "Logged in as";
-$l['view_board'] = "View Forum";
-$l['logout'] = "Log Out";
+$l['mybb_admin_panel'] = "MyBB-ylläpito";
+$l['mybb_admin_cp'] = "MyBB-ylläpito";
+$l['logged_in_as'] = "Kirjautunut nimellä";
+$l['view_board'] = "Näytä keskustelualue";
+$l['logout'] = "Kirjaudu ulos";
 
 // Footer language strings
-$l['generated_in'] = "Generated in {1} seconds with {2} queries. Memory Usage: {3}";
+$l['generated_in'] = "Luotu {1} sekunnissa {2} tietokantakutsulla. Muistin käyttö: {3}";
 
 // Login page
-$l['enter_username_and_password'] = "Please enter your username and password to continue.";
-$l['mybb_admin_login'] = "MyBB Control Panel - Login";
-$l['return_to_forum'] = "Return to forum";
-$l['please_login'] = "Please Login";
-$l['username'] = "Username:";
-$l['username1'] = "Email:";
-$l['username2'] = "Username/Email:";
-$l['password'] = "Password:";
-$l['login'] = "Login";
-$l['lost_password'] = "Forgot your password?";
+$l['enter_username_and_password'] = "Syötä tunnus ja salasana jatkaaksesi.";
+$l['mybb_admin_login'] = "MyBB-ylläpitoon kirjautuminen";
+$l['return_to_forum'] = "Palaa keskustelualueelle";
+$l['please_login'] = "Kirjaudu";
+$l['username'] = "Tunnus:";
+$l['username1'] = "Sähköposti:";
+$l['username2'] = "Tunnus/sähköposti:";
+$l['password'] = "Salasana:";
+$l['login'] = "Kirjaudu";
+$l['lost_password'] = "Unohditko salasanan?";
 
-$l['error_invalid_admin_session'] = "Invalid administration session";
-$l['error_admin_session_expired'] = "Your administration session has expired";
-$l['error_invalid_ip'] = "Your IP address is not valid for this session";
-$l['error_mybb_admin_lockedout'] = "This account has been locked out";
-$l['error_mybb_admin_lockedout_message'] = "Your account is currently locked out after failing to login {1} times. You have been sent an email with instructions on how to unlock your account.";
+$l['error_invalid_admin_session'] = "Kelvoton ylläpidon istunto";
+$l['error_admin_session_expired'] = "Ylläpidon istuntosi on vanhentunut";
+$l['error_invalid_ip'] = "IP-osoitteesi ei ole kelvollinen tälle istunnolle";
+$l['error_mybb_admin_lockedout'] = "Tunnus on lukittu";
+$l['error_mybb_admin_lockedout_message'] = "Tunnuksesi on toistaiseksi lukittu, koska kirjautuminen epäonnistui {1} kertaa. Sinulle on lähetetty sähköposti, jossa on ohjeet tunnuksen lukituksen poistamiseksi.";
 
-$l['error_invalid_username'] = "The username you entered is invalid.";
-$l['error_invalid_uid'] = "The user id you entered is invalid.";
-$l['error_invalid_token'] = "The activation code you entered is invalid.";
+$l['error_invalid_username'] = "Syöttämäsi tunnus ei kelpaa.";
+$l['error_invalid_uid'] = "Syöttämäsi käyttäjänumero ei kelpaa.";
+$l['error_invalid_token'] = "Syöttämäsi aktivointikoodi ei kelpaa.";
 
-$l['success_logged_out'] = "You have been logged out successfully.";
-$l['error_invalid_username_password'] = "The username and password combination you entered is invalid.";
+$l['success_logged_out'] = "Sinut on kirjattu sisään.";
+$l['error_invalid_username_password'] = "Tunnuksen ja salasanan yhdistelmä ei kelpaa.";
 
 // Action Confirmation
-$l['confirm_action'] = "Are you sure you wish to perform this action?";
+$l['confirm_action'] = "Haluatko varmasti suorittaa tämän toiminnon?";
 
 // Common words and phrases
-$l['home'] = "Home";
-$l['name'] = "Name";
-$l['size'] = "Size";
+$l['home'] = "Etusivu";
+$l['name'] = "Nimi";
+$l['size'] = "Koko";
 $l['controls'] = "Controls";
 $l['view'] = "View";
 $l['yes'] = "Yes";
